@@ -4,7 +4,7 @@
     private double balance;
 
     // Constructor to initialize the account balance
-    public Account(double initialBalance) {
+     Account(double initialBalance) {
         if (initialBalance >= 0) {
             this.balance = initialBalance;
         } else {
