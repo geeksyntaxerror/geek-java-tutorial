@@ -1,15 +1,15 @@
 // Class definition
-class Car {
+class Car1 {
     // Fields (Attributes)
     String model;
     int year;
     String color;
 
     //Default Constructor
-    Car(){}
+    Car1(){}
 
     //Parameterized Constructor
-    Car(String model, int year, String color) {
+    Car1(String model, int year, String color) {
         this.model = model;
         this.year = year;
         this.color = color;
@@ -28,8 +28,8 @@ class Car {
 public class ClassesAndObjects {
     public static void main(String[] args) {
         // Object creation
-        Car myCar = new Car();
-        Car anotherCar = new Car("Honda Civic", 2021, "Blue");
+        Car1 myCar = new Car1();
+        Car1 anotherCar = new Car1("Honda Civic", 2021, "Blue");
 
         // Accessing methods
         myCar.displayDetails();
