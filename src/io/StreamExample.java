@@ -12,8 +12,8 @@ public class StreamExample {
         String charDestinationFile = "resource/out/outputTextFile.txt";
 
         // Byte Stream Example
-        copyBinaryFile(byteSourceFile, byteDestinationFile);
-        System.out.println("Binary file copied successfully.");
+//        copyBinaryFile(byteSourceFile, byteDestinationFile);
+//        System.out.println("Binary file copied successfully.");
 
         // Character Stream Example
         copyTextFile(charSourceFile, charDestinationFile);
@@ -28,7 +28,7 @@ public class StreamExample {
             int data;
             // Reading and writing one byte at a time
             while ((data = fis.read()) != -1) {
-//                System.out.print(data +" ");
+                System.out.print(data +" ");
                 fos.write(data);
             }
 
@@ -45,7 +45,7 @@ public class StreamExample {
             int data;
             // Reading and writing one character at a time
             while ((data = fr.read()) != -1) {
-//                System.out.print(data +" ");
+                System.out.print(data +" ");
                 fw.write(data);
             }
 
